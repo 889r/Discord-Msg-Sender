@@ -4,19 +4,6 @@ This Python script allows you to send messages to a specific URL endpoint via HT
 
 ---
 
-## Table of Contents
-
-1. [Features](#features)  
-2. [Requirements](#requirements)  
-3. [Installation](#installation)  
-4. [Configuration](#configuration)  
-5. [Usage](#usage)  
-6. [Logging](#logging)  
-7. [Disclaimer](#disclaimer)  
-8. [Contact](#contact)  
-
----
-
 ## Features
 
 - **Single Message Sending**: Send a single, customized message to the desired endpoint.
