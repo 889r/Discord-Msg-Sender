@@ -13,15 +13,15 @@ headers = {
 }
 
 
-#send 1 message
-response = requests.post(url=url, data=data, headers=headers)
-if response.status_code == 200:
-    log.info("Message Sent Sucessfully!")
-else:
-    log.error("Failed To Send Message")
+# Uncomment this block to send only 1 message
+#response = requests.post(url=url, data=data, headers=headers)
+#if response.status_code == 200:
+#    log.info("Message Sent Sucessfully!")
+#else:
+#    log.error("Failed To Send Message")
 
 
-#spam
+# Uncomment this block to spam messages:
 #while True:
 #    response = requests.post(url=url, data=data, headers=headers)
 #    if response.status_code == 200:
